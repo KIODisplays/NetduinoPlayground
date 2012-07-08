@@ -1,6 +1,8 @@
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 bin
 obj
+*.suo
+*.user
 
 # mstest test results
 TestResults
@@ -9,3 +11,7 @@ TestResults
 _ReSharper*/
 *.resharper
 [Tt]est[Rr]esult*
+
+#MonoDevelop
+*.pidb
+*.userprefs
